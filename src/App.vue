@@ -11,10 +11,14 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #e0def4;
+  background: #191724;
+  font-size: initial;
+}
+#app h1 {
+  @apply text-3xl;
+}
+#app h2 {
+  @apply text-2xl;
 }
 </style>

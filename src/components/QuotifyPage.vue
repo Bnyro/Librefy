@@ -1,8 +1,10 @@
 <template>
-  <div class="mx-auto" v-if="quote">
-    <h2 ref="quote" v-text="quote.content"></h2>
-    <p ref="author" v-text="quote.author"></p>
-    <button ref="next" @click="fetchRandomQuote" />
+  <div class="flex justify-center items-center h-[100vh]">
+    <div v-if="quote" class="w-[50vw] text-right children:(my-5) rounded-4xl bg-[#1f1d2e] p-16">
+      <h1 v-text="quote.content" />
+      <h2 v-text="quote.author" />
+      <button ref="next" @click="fetchRandomQuote">Next quote</button>
+    </div>
   </div>
 </template>
 

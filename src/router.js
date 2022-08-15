@@ -16,4 +16,9 @@ const router = createRouter({
   },
 });
 
+// automatically set the document title
+router.afterEach((to) => {
+  document.title = to.name;
+});
+
 export default router;
