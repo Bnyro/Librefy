@@ -19,18 +19,15 @@
   @apply flex justify-center items-center h-[100vh];
 }
 #app .btn {
-  @apply rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)]);
+  @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)]);
 }
 #app .select {
-  background: var(--highlight);
-  width: auto;
-  font-family: none;
-  padding: 0.5rem;
+  @apply bg-[var(--highlight)] w-auto p-2;
 }
 #app .areawrapper {
-  @apply mx-5 flex flex-col justify-center items-center;
+  @apply mx-3 flex flex-col justify-center items-center;
 }
 #app .textarea {
-  @apply my-4 h-50 w-full rounded-xl p-4;
+  @apply my-4 h-50 w-90 rounded-xl p-4;
 }
 </style>

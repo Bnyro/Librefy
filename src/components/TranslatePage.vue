@@ -1,6 +1,6 @@
 <template>
   <div class="flex-container">
-    <div class="surface flex flex-col justify-center">
+    <div class="surface flex flex-col justify-center items-center">
       <div class="flex justify-center">
         <div class="areawrapper">
           <select class="select" v-model="inputLanguage">
@@ -43,6 +43,7 @@ export default {
       });
     },
     async translate() {
+      if (this.inputText == "") return;
       this.fetchJSON(this.baseURL + "/translate", {
         method: "POST",
         body: JSON.stringify({
