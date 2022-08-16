@@ -25,10 +25,10 @@
   @apply flex flex-col justify-center items-center h-[100vh];
 }
 #app .btn {
-  @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)]);
+  @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)] cursor-pointer);
 }
 #app .select {
-  @apply bg-[var(--highlight)] w-auto p-2 rounded-2xl;
+  @apply bg-[var(--highlight)] w-auto p-2 rounded-2xl border-none;
   border-right: 0.5em solid transparent; /* padding right for arrows */
 }
 #app .areawrapper {
