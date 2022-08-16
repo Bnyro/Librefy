@@ -16,7 +16,7 @@
   @apply text-2xl;
 }
 #app a {
-  @apply color-[var(--text)] decoration-none;
+  @apply no-underline;
 }
 #app .surface {
   @apply rounded-[4em] bg-[var(--surface)] p-16 min-w-[50vw] max-w-[80vw];
@@ -35,6 +35,6 @@
   @apply mx-3 flex flex-col justify-center items-center;
 }
 #app .textarea {
-  @apply my-4 h-50 max-w-[40vw] w-90 rounded-xl p-4;
+  @apply my-4 h-50 max-w-[40vw] w-90 rounded-xl p-4 border-none bg-[var(--highlight-low)];
 }
 </style>
