@@ -18,7 +18,7 @@
 
 <style scoped>
 a {
-  @apply flex flex-col justify-center mx-5 items-center bg-[var(--highlight-low)] px-8 pt-6 rounded-2xl hover:(bg-[var(--highlight)]);
+  @apply flex flex-col justify-center mx-5 items-center bg-[var(--highlight-low)] px-8 pt-6 rounded-2xl hover:bg-[var(--highlight)];
 }
 img {
   @apply w-20 h-20;

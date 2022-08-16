@@ -25,7 +25,7 @@
   @apply flex flex-col justify-center items-center h-[100vh];
 }
 #app .btn {
-  @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)] cursor-pointer);
+  @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:bg-[var(--highlight)] hover:cursor-pointer;
 }
 #app .select {
   @apply bg-[var(--highlight)] w-auto p-2 rounded-2xl border-none;
