@@ -9,16 +9,19 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: #e0def4;
-  background: #191724;
-  font-size: initial;
-}
 #app h1 {
   @apply text-3xl;
 }
 #app h2 {
   @apply text-2xl;
+}
+#app .surface {
+  @apply rounded-4xl bg-[var(--surface)] p-16;
+}
+#app .flex-container {
+  @apply flex justify-center items-center h-[100vh];
+}
+#app .btn {
+  @apply rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)]);
 }
 </style>
