@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import QuotesPage from "./components/QuotesPage";
-import TranslatePage from "./components/TranslatePage";
+import QuotesPage from "./components/QuotesPage.vue";
+import TranslatePage from "./components/TranslatePage.vue";
 
 const routes = [
   {

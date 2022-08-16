@@ -3,22 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
+    "vite-plugin-windicss": "^1.8.7",
     "vue": "^3.2.13",
-    "vue-router": "4"
+    "vue-router": "4",
+    "windicss": "^3.5.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.1",
-    "vite": "^2.5.4",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "eslint": "8",
+    "eslint-plugin-vue": "8",
+    "vite": "^2.5.4",
     "vue-cli-plugin-windicss": "~1.1.6"
   },
   "eslintConfig": {
@@ -30,9 +31,6 @@
       "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
     "rules": {}
   },
   "browserslist": [

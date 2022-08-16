@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "windi.css";
-import router from "./router";
+import "virtual:windi.css";
+import router from "./router.js";
 
 const mixin = {
   methods: {
