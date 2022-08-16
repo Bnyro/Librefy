@@ -7,17 +7,16 @@
             <option :value="'auto'">Auto</option>
             <option v-for="language in languages" :key="language.name" v-text="language.name" :value="language.code" />
           </select>
-          <textarea class="textarea" ref="input" placeholder="Enter Text Here" v-model="inputText" />
+          <textarea class="textarea" ref="input" placeholder="Enter Text Here" v-model="inputText" spellcheck="false" v-on:keyup.enter="translate" />
         </div>
         <div class="areawrapper">
           <select class="select" v-model="resultLanguage">
-            <option :value="'auto'">Auto</option>
             <option v-for="language in languages" :key="language.name" v-text="language.name" :value="language.code" />
           </select>
-          <textarea class="textarea" ref="result" v-model="resultText" />
+          <textarea class="textarea" ref="result" v-model="resultText" spellcheck="false" readonly />
         </div>
       </div>
-      <button class="btn" v-text="'Translate'" />
+      <button class="btn mt-4" v-text="'Translate'" @click="translate" />
     </div>
   </div>
 </template>
@@ -26,9 +25,9 @@
 export default {
   data() {
     return {
-      baseURL: "https://libretranslate.com",
+      baseURL: "https://libretranslate.de",
       inputLanguage: "auto",
-      resultLanguage: "auto",
+      resultLanguage: "en",
       inputText: "",
       resultText: "",
       languages: null,
@@ -47,13 +46,14 @@ export default {
       this.fetchJSON(this.baseURL + "/translate", {
         method: "POST",
         body: JSON.stringify({
-          q: "fdf",
-          source: "auto",
-          target: "es",
+          q: this.inputText,
+          source: this.inputLanguage,
+          target: this.resultLanguage,
           format: "text",
-          api_key: "",
         }),
         headers: { "Content-Type": "application/json" },
+      }).then((response) => {
+        this.resultText = response.translatedText;
       });
     },
   },

@@ -31,6 +31,6 @@
   @apply mx-5 flex flex-col justify-center items-center;
 }
 #app .textarea {
-  @apply my-4 h-30;
+  @apply my-4 h-50 w-full rounded-xl p-4;
 }
 </style>
