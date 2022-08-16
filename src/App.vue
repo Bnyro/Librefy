@@ -7,22 +7,26 @@
   background: var(--base);
 }
 #app h1 {
-  @apply text-3xl;
+  @apply text-10xl font-bold;
 }
 #app h2 {
+  @apply text-3xl;
+}
+#app h3 {
   @apply text-2xl;
 }
 #app .surface {
   @apply rounded-4xl bg-[var(--surface)] p-16 w-[50vw];
 }
 #app .flex-container {
-  @apply flex justify-center items-center h-[100vh];
+  @apply flex flex-col justify-center items-center h-[100vh];
 }
 #app .btn {
   @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:(bg-[var(--highlight)]);
 }
 #app .select {
-  @apply bg-[var(--highlight)] w-auto p-2;
+  @apply bg-[var(--highlight)] w-auto p-2 rounded-2xl;
+  border-right: 0.5em solid transparent; /* padding right for arrows */
 }
 #app .areawrapper {
   @apply mx-3 flex flex-col justify-center items-center;

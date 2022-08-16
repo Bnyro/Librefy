@@ -1,9 +1,9 @@
 <template>
   <div class="flex-container">
     <div v-if="quote" class="surface text-right">
-      <h1 v-text="quote.content" />
-      <h2 class="mt-4" v-text="quote.author" />
-      <button class="btn mt-6 mr-[-0.5em]" @click="fetchRandomQuote">Next quote</button>
+      <h2 v-text="quote.content" />
+      <h3 class="mt-4" v-text="quote.author" />
+      <button class="btn mt-8 mr-[-0.5em]" @click="fetchRandomQuote">Next quote</button>
     </div>
   </div>
 </template>

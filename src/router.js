@@ -1,8 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
+import HomePage from "./components/HomePage.vue";
 import QuotesPage from "./components/QuotesPage.vue";
 import TranslatePage from "./components/TranslatePage.vue";
+import PageNotFound from "./components/PageNotFound.vue";
 
 const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: HomePage,
+  },
   {
     path: "/quotes",
     name: "Quotes",
@@ -12,6 +19,11 @@ const routes = [
     path: "/translate",
     name: "Translator",
     component: TranslatePage,
+  },
+  {
+    path: "/:pathMatch(.*)",
+    name: "404",
+    component: PageNotFound,
   },
 ];
 
