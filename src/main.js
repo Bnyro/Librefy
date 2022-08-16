@@ -6,7 +6,7 @@ import router from "./router";
 const mixin = {
   methods: {
     async fetchJSON(url, options) {
-      return fetch("https://api.quotable.io" + url, options).then((response) => {
+      return fetch(url, options).then((response) => {
         return response.json();
       });
     },

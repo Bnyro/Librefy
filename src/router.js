@@ -1,10 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
+import QuotesPage from "./components/QuotesPage";
+import TranslatePage from "./components/TranslatePage";
 
 const routes = [
   {
-    path: "/",
-    name: "Quotify",
-    component: () => import("./components/QuotifyPage.vue"),
+    path: "/quotes",
+    name: "Quotes",
+    component: QuotesPage,
+  },
+  {
+    path: "/translate",
+    name: "Translator",
+    component: TranslatePage,
   },
 ];
 
