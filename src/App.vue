@@ -16,7 +16,7 @@
   @apply text-2xl;
 }
 #app .surface {
-  @apply rounded-4xl bg-[var(--surface)] p-16 w-[50vw];
+  @apply rounded-4xl bg-[var(--surface)] p-16 min-w-[50vw];
 }
 #app .flex-container {
   @apply flex flex-col justify-center items-center h-[100vh];
@@ -32,6 +32,6 @@
   @apply mx-3 flex flex-col justify-center items-center;
 }
 #app .textarea {
-  @apply my-4 h-50 w-90 rounded-xl p-4;
+  @apply my-4 h-50 max-w-[40vw] w-90 rounded-xl p-4;
 }
 </style>
