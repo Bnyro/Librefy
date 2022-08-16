@@ -7,7 +7,7 @@
   background: var(--base);
 }
 #app h1 {
-  @apply text-10xl font-bold;
+  @apply text-[10em] font-bold my-[-0.3em];
 }
 #app h2 {
   @apply text-3xl;
