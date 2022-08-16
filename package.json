@@ -9,10 +9,11 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
   },
   "dependencies": {
+    "@unocss/transformer-directives": "^0.45.7",
+    "unocss": "^0.45.7",
     "vite-plugin-windicss": "^1.8.7",
     "vue": "^3.2.13",
-    "vue-router": "4",
-    "windicss": "^3.5.6"
+    "vue-router": "4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

@@ -15,8 +15,11 @@
 #app h3 {
   @apply text-2xl;
 }
+#app a {
+  @apply color-[var(--text)] decoration-none;
+}
 #app .surface {
-  @apply rounded-4xl bg-[var(--surface)] p-16 min-w-[50vw];
+  @apply rounded-[4em] bg-[var(--surface)] p-16 min-w-[50vw] max-w-[80vw];
 }
 #app .flex-container {
   @apply flex flex-col justify-center items-center h-[100vh];

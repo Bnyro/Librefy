@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "virtual:windi.css";
+import "uno.css";
 import router from "./router.js";
 
 const mixin = {
