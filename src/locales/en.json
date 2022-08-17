@@ -18,6 +18,10 @@
   "info": {
     "age": "Age",
     "nationality": "Nationality",
-    "email": "Email"
+    "email": "Email",
+    "definitions": "Definitions",
+    "synonyms": "Synonyms",
+    "antonyms": "Antonyms",
+    "example": "Example"
   }
 }

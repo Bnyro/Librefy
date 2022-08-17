@@ -40,4 +40,7 @@
 #app .input {
   @apply bg-[var(--highlight-low)] border-none rounded-xl p-2;
 }
+#app .summary {
+  @apply hover:cursor-pointer my-3;
+}
 </style>
