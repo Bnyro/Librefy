@@ -1,15 +1,12 @@
 <template>
-  <NavBar />
   <router-view />
   <Footer />
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue"
 import Footer from "./components/FooterComponent.vue"
 export default {
     components: {
-        NavBar,
         Footer
     }
 }
@@ -26,7 +23,7 @@ export default {
   @apply rounded-[4em] bg-[var(--surface)] p-16 min-w-[50vw] max-w-[80vw];
 }
 #app .flex-container {
-  @apply flex flex-col justify-center items-center min-h-[100vh];
+  @apply flex flex-col justify-center items-center min-h-[88vh];
 }
 #app .btn {
   @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:bg-[var(--highlight)] hover:cursor-pointer;
