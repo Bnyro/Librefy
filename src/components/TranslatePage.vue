@@ -25,7 +25,6 @@
 export default {
   data() {
     return {
-      baseURL: "https://libretranslate.de",
       inputLanguage: "auto",
       resultLanguage: "en",
       inputText: "",
@@ -38,13 +37,13 @@ export default {
   },
   methods: {
     async fetchLanguages() {
-      await this.fetchJSON(this.baseURL + "/languages", null).then((response) => {
+      await this.fetchJSON(this.config.libreTranslateURL + "/languages", null).then((response) => {
         this.languages = response;
       });
     },
     async translate() {
       if (this.inputText == "") return;
-      this.fetchJSON(this.baseURL + "/translate", {
+      this.fetchJSON(this.config.libreTranslateURL + "/translate", {
         method: "POST",
         body: JSON.stringify({
           q: this.inputText,

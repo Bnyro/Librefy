@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     async fetchRandomQuote() {
-      await this.fetchJSON("https://api.quotable.io/random", null).then((response) => {
+      await this.fetchJSON(this.config.quotableURL + "/random", null).then((response) => {
         this.quote = response;
       });
     },
