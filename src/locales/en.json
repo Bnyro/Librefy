@@ -5,7 +5,7 @@
     "bored": "Bored",
     "random_user": "Random User",
     "dict": "Dictionary",
-    "ip_info": "IP Info"
+    "countries": "Countries"
   },
   "actions": {
     "next_quote": "Next Quote",
@@ -13,7 +13,8 @@
     "enter_text": "Enter Text Here",
     "next_activity": "Next Activity",
     "new_user": "New User",
-    "search": "Search"
+    "search": "Search",
+    "next_country": "Next country"
   },
   "info": {
     "age": "Age",
@@ -24,6 +25,9 @@
     "antonyms": "Antonyms",
     "example": "Example",
     "participants": "Participants",
-    "type": "Type"
+    "type": "Type",
+    "capital": "Capital",
+    "inhabitants": "Inhabitants",
+    "region": "Region"
   }
 }

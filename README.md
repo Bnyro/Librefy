@@ -10,8 +10,6 @@
 * [Bored API](https://boredapi.com/)
 * [REST Countries](https://restcountries.com/)
 
-<br />
-
 ## Project setup
 ```
 yarn install

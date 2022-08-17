@@ -15,10 +15,6 @@
           <img src="/assets/bored.svg" />
           <h3 v-t="'titles.bored'" />
         </a>
-        <a href="/ip">
-          <img src="/assets/ip.svg" />
-          <h3 v-t="'titles.ip_info'" />
-        </a>
         <a href="/dict">
           <img src="/assets/dict.svg" />
           <h3 v-t="'titles.dict'" />
@@ -26,6 +22,10 @@
         <a href="/user">
           <img src="/assets/user.svg" />
           <h3 v-t="'titles.random_user'" />
+        </a>
+        <a href="/countries">
+          <img src="/assets/countries.svg" />
+          <h3 v-t="'titles.countries'" />
         </a>
       </div>
     </div>

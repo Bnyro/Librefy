@@ -6,7 +6,7 @@ import PageNotFound from "./components/PageNotFound.vue";
 import BoredPage from "./components/BoredPage.vue";
 import DictionaryPage from "./components/DictionaryPage.vue";
 import RandomUserPage from "./components/RandomUserPage.vue";
-import IPInfoPage from "./components/IPInfoPage.vue";
+import CountriesPage from "./components/CountriesPage.vue";
 
 const routes = [
   {
@@ -35,9 +35,9 @@ const routes = [
     component: DictionaryPage,
   },
   {
-    path: "/ip",
-    name: "IP Info",
-    component: IPInfoPage,
+    path: "/countries",
+    name: "Countries",
+    component: CountriesPage,
   },
   {
     path: "/bored",
