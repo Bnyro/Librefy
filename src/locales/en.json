@@ -11,6 +11,12 @@
     "next_quote": "Next Quote",
     "translate": "Translate",
     "enter_text": "Enter Text Here",
-    "next_activity": "Next Activity"
+    "next_activity": "Next Activity",
+    "new_user": "New User"
+  },
+  "info": {
+    "age": "Age",
+    "nationality": "Nationality",
+    "email": "Email"
   }
 }
