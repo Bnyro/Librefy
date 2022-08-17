@@ -1,0 +1,11 @@
+{
+  "titles": {
+    "translator": "Translator",
+    "quotes": "Quotes"
+  },
+  "actions": {
+    "next_quote": "Next Quote",
+    "translate": "Translate",
+    "enter_text": "Enter Text Here"
+  }
+}

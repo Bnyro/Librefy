@@ -1,8 +1,9 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "uno.css";
 import router from "./router.js";
 import config from "../config.js";
+import i18n from "../i18n-config.js";
+import "uno.css";
 
 const mixin = {
   data() {
@@ -21,5 +22,6 @@ const mixin = {
 
 const app = createApp(App);
 app.use(router);
+app.use(i18n);
 app.mixin(mixin);
 app.mount("#app");

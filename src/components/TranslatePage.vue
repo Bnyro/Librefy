@@ -7,7 +7,14 @@
             <option :value="'auto'">Auto</option>
             <option v-for="language in languages" :key="language.name" v-text="language.name" :value="language.code" />
           </select>
-          <textarea class="textarea" ref="input" placeholder="Enter Text Here" v-model="inputText" spellcheck="false" v-on:keyup.enter="translate" />
+          <textarea
+            class="textarea"
+            ref="input"
+            :placeholder="$t('actions.enter_text')"
+            v-model="inputText"
+            spellcheck="false"
+            v-on:keyup.enter="translate"
+          />
         </div>
         <div class="areawrapper">
           <select class="select" v-model="resultLanguage" @change="translate">
@@ -16,7 +23,7 @@
           <textarea class="textarea" ref="result" v-model="resultText" spellcheck="false" readonly />
         </div>
       </div>
-      <button class="btn mt-4" v-text="'Translate'" @click="translate" />
+      <button class="btn mt-4" v-t="'actions.translate'" @click="translate" />
     </div>
   </div>
 </template>

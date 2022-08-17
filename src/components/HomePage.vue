@@ -5,11 +5,11 @@
       <div class="flex justify-center mt-20">
         <a href="/translate">
           <img src="/assets/translate.svg" />
-          <h3>Translator</h3>
+          <h3 v-t="'titles.translator'" />
         </a>
         <a href="/quotes">
           <img src="/assets/quote.svg" />
-          <h3>Quotes</h3>
+          <h3 v-t="'titles.quotes'" />
         </a>
       </div>
     </div>
