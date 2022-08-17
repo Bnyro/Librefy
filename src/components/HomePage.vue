@@ -11,6 +11,10 @@
           <img src="/assets/quote.svg" />
           <h3 v-t="'titles.quotes'" />
         </a>
+        <a href="/bored">
+          <img src="/assets/bored.svg" />
+          <h3 v-t="'titles.bored'" />
+        </a>
       </div>
     </div>
   </div>

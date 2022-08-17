@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router.js";
 import config from "../config.js";
-import i18n from "../i18n-config.js";
+import i18n from "../i18n.js";
 import "uno.css";
 
 const mixin = {

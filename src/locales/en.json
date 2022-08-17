@@ -1,11 +1,19 @@
 {
   "titles": {
     "translator": "Translator",
-    "quotes": "Quotes"
+    "quotes": "Quotes",
+    "bored": "Bored",
+    "random_user": "Random User",
+    "dict": "Dictionary",
+    "ip_info": "IP Info"
   },
   "actions": {
     "next_quote": "Next Quote",
     "translate": "Translate",
-    "enter_text": "Enter Text Here"
+    "enter_text": "Enter Text Here",
+    "next_activity": "Next Activity"
+  },
+  "info": {
+    "participants": "{amount} participants"
   }
 }

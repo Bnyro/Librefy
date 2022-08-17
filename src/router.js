@@ -3,6 +3,10 @@ import HomePage from "./components/HomePage.vue";
 import QuotesPage from "./components/QuotesPage.vue";
 import TranslatePage from "./components/TranslatePage.vue";
 import PageNotFound from "./components/PageNotFound.vue";
+import BoredPage from "./components/BoredPage.vue";
+import DictionaryPage from "./components/DictionaryPage.vue";
+import RandomUserPage from "./components/RandomUserPage.vue";
+import IPInfoPage from "./components/IPInfoPage.vue";
 
 const routes = [
   {
@@ -19,6 +23,26 @@ const routes = [
     path: "/translate",
     name: "Translator",
     component: TranslatePage,
+  },
+  {
+    path: "/user",
+    name: "Random User",
+    component: RandomUserPage,
+  },
+  {
+    path: "/dict",
+    name: "Dictionary",
+    component: DictionaryPage,
+  },
+  {
+    path: "/ip",
+    name: "IP Info",
+    component: BoredPage,
+  },
+  {
+    path: "/bored",
+    name: "Bored",
+    component: BoredPage,
   },
   {
     path: "/:pathMatch(.*)",
