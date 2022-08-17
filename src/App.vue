@@ -6,15 +6,6 @@
 #app {
   background: var(--base);
 }
-#app h1 {
-  @apply text-[10em] font-bold my-[-0.3em];
-}
-#app h2 {
-  @apply text-3xl;
-}
-#app h3 {
-  @apply text-2xl;
-}
 #app a {
   @apply no-underline;
 }

@@ -22,6 +22,8 @@
     "definitions": "Definitions",
     "synonyms": "Synonyms",
     "antonyms": "Antonyms",
-    "example": "Example"
+    "example": "Example",
+    "participants": "Participants",
+    "type": "Type"
   }
 }
