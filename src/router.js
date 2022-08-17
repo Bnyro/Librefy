@@ -59,9 +59,17 @@ const router = createRouter({
   },
 });
 
-// automatically set the document title
 router.afterEach((to) => {
+  // set the page title
   document.title = to.name;
+  // set the icon
+  var link = document.querySelector("link[rel~='icon']");
+  if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  }
+  link.href = "/assets" + to.path + ".svg";
 });
 
 export default router;

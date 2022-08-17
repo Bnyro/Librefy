@@ -8,7 +8,7 @@
           <h3 v-t="'titles.translator'" />
         </a>
         <a href="/quotes">
-          <img src="/assets/quote.svg" />
+          <img src="/assets/quotes.svg" />
           <h3 v-t="'titles.quotes'" />
         </a>
         <a href="/bored">
