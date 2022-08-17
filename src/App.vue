@@ -22,7 +22,7 @@
   @apply rounded-[4em] bg-[var(--surface)] p-16 min-w-[50vw] max-w-[80vw];
 }
 #app .flex-container {
-  @apply flex flex-col justify-center items-center h-[100vh];
+  @apply flex flex-col justify-center items-center min-h-[100vh];
 }
 #app .btn {
   @apply w-[fit-content] rounded-2xl px-4 py-2 bg-[var(--highlight-low)] hover:bg-[var(--highlight)] hover:cursor-pointer;
@@ -36,5 +36,8 @@
 }
 #app .textarea {
   @apply my-4 h-50 max-w-[40vw] w-90 rounded-xl p-4 border-none bg-[var(--highlight-low)];
+}
+#app .input {
+  @apply bg-[var(--highlight-low)] border-none rounded-xl p-2;
 }
 </style>
