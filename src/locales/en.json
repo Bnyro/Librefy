@@ -12,8 +12,5 @@
     "translate": "Translate",
     "enter_text": "Enter Text Here",
     "next_activity": "Next Activity"
-  },
-  "info": {
-    "participants": "{amount} participants"
   }
 }

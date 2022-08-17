@@ -37,7 +37,7 @@ const routes = [
   {
     path: "/ip",
     name: "IP Info",
-    component: BoredPage,
+    component: IPInfoPage,
   },
   {
     path: "/bored",
