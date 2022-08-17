@@ -11,7 +11,6 @@
   "dependencies": {
     "@unocss/transformer-directives": "^0.45.7",
     "unocss": "^0.45.7",
-    "vite-plugin-windicss": "^1.8.7",
     "vue": "^3.2.13",
     "vue-i18n": "9",
     "vue-router": "4"
