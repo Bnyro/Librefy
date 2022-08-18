@@ -1,7 +1,7 @@
 <template>
   <footer>
     <span>
-        <p>© 2022 <a href="https://github.com/bnyro/">Bnyro</a></p>
+        <p>© 2022 <a href="/">Librefy</a></p>
         <div id="social">
           <a href="https://github.com/bnyro/librefy"><img src="assets/github.svg" /></a>
         </div>
