@@ -16,13 +16,13 @@
     "vue-router": "4"
   },
   "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "6.0.1",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vitejs/plugin-vue": "^1.6.1",
     "eslint": "8",
     "eslint-plugin-vue": "8",
-    "vite": "^2.5.4",
-    "vue-cli-plugin-windicss": "~1.1.6"
+    "vite": "^2.5.4"
   },
   "eslintConfig": {
     "root": true,

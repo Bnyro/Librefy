@@ -3,7 +3,7 @@
     <span>
         <p>© 2022 <a href="/">Librefy</a></p>
         <div id="social">
-          <a href="https://github.com/bnyro/librefy"><img src="assets/github.svg" /></a>
+          <a href="https://github.com/bnyro/librefy"><img src="/assets/github.svg" /></a>
         </div>
       </span>
   </footer>
