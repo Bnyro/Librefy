@@ -69,7 +69,8 @@ router.afterEach((to) => {
     link.rel = 'icon';
     document.getElementsByTagName('head')[0].appendChild(link);
   }
-  link.href = "/assets" + to.path + ".svg";
+  const fileName = to.path == "/" ? "/home" : to.path
+  link.href = "/assets" + fileName + ".svg";
 });
 
 export default router;

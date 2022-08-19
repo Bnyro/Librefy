@@ -3,30 +3,30 @@
     <div class="surface">
       <h2 class="text-center">Services</h2>
       <div class="mt-10 grid grid-cols-3 children:my-4">
-        <a href="/translate">
+        <router-link to="/translate">
           <img src="/assets/translate.svg" />
           <h3 v-t="'titles.translator'" />
-        </a>
-        <a href="/quotes">
+        </router-link>
+        <router-link to="/quotes">
           <img src="/assets/quotes.svg" />
           <h3 v-t="'titles.quotes'" />
-        </a>
-        <a href="/bored">
+        </router-link>
+        <router-link to="/bored">
           <img src="/assets/bored.svg" />
           <h3 v-t="'titles.bored'" />
-        </a>
-        <a href="/dict">
+        </router-link>
+        <router-link to="/dict">
           <img src="/assets/dict.svg" />
           <h3 v-t="'titles.dict'" />
-        </a>
-        <a href="/user">
+        </router-link>
+        <router-link to="/user">
           <img src="/assets/user.svg" />
           <h3 v-t="'titles.random_user'" />
-        </a>
-        <a href="/countries">
+        </router-link>
+        <router-link to="/countries">
           <img src="/assets/countries.svg" />
           <h3 v-t="'titles.countries'" />
-        </a>
+        </router-link>
       </div>
     </div>
   </div>

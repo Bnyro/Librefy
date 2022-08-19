@@ -20,7 +20,7 @@ export default {
   @apply no-underline;
 }
 #app .surface {
-  @apply rounded-[4em] bg-[var(--surface)] p-16 min-w-[50vw] max-w-[80vw];
+  @apply rounded-[4em] bg-[var(--surface)] p-4 md:p-16  min-w-[50vw] max-w-[80vw] m-4 md:m-8;
 }
 #app .flex-container {
   @apply flex flex-col justify-center items-center min-h-[88vh];
