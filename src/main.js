@@ -1,4 +1,6 @@
-import { createApp } from "vue";
+import {
+    createApp
+} from "vue";
 import App from "./App.vue";
 import router from "./router.js";
 import config from "../config.js";
@@ -6,39 +8,35 @@ import i18n from "../i18n.js";
 import "uno.css";
 
 const mixin = {
-  data() {
-    return {
-      config: config,
-    };
-  },
-  methods: {
-    async fetchJSON(url, options) {
-      return fetch(url, options).then((response) => {
-        return response.json();
-      });
+    data() {
+        return {
+            config: config,
+        };
     },
-    getRandomInt(min, max) {
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min + 1)) + min;
+    methods: {
+        async fetchJSON(url, options) {
+            return fetch(url, options).then((response) => {
+                return response.json();
+            });
+        },
+        getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        },
+        formatNumber(number) {
+            // Nine Zeroes for Billions
+            return Math.abs(Number(number)) >= 1.0e9 ?
+                (Math.abs(Number(number)) / 1.0e9).toFixed(2) + "B" // Six Zeroes for Millions
+                :
+                Math.abs(Number(number)) >= 1.0e6 ?
+                (Math.abs(Number(number)) / 1.0e6).toFixed(2) + "M" // Three Zeroes for Thousands
+                :
+                Math.abs(Number(number)) >= 1.0e3 ?
+                (Math.abs(Number(number)) / 1.0e3).toFixed(2) + "K" :
+                Math.abs(Number(number));
+        },
     },
-    formatNumber (number) {
-      // Nine Zeroes for Billions
-      return Math.abs(Number(number)) >= 1.0e+9
-
-      ? (Math.abs(Number(number)) / 1.0e+9).toFixed(2) + "B"
-      // Six Zeroes for Millions 
-      : Math.abs(Number(number)) >= 1.0e+6
-
-      ? (Math.abs(Number(number)) / 1.0e+6).toFixed(2) + "M"
-      // Three Zeroes for Thousands
-      : Math.abs(Number(number)) >= 1.0e+3
-
-      ? (Math.abs(Number(number)) / 1.0e+3).toFixed(2) + "K"
-
-      : Math.abs(Number(number));
-    }
-  },
 };
 
 const app = createApp(App);

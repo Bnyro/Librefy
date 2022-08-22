@@ -4,12 +4,12 @@
 </template>
 
 <script>
-import Footer from "./components/FooterComponent.vue"
+import Footer from "./components/FooterComponent.vue";
 export default {
-    components: {
-        Footer
-    }
-}
+  components: {
+    Footer,
+  },
+};
 </script>
 
 <style>

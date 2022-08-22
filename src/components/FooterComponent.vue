@@ -1,11 +1,11 @@
 <template>
   <footer>
     <span>
-        <p>© 2022 <router-link to="/">Librefy</router-link></p>
-        <div id="social">
-          <a href="https://github.com/bnyro/librefy"><img src="/assets/github.svg" /></a>
-        </div>
-      </span>
+      <p>© 2022 <router-link to="/">Librefy</router-link></p>
+      <div id="social">
+        <a href="https://github.com/bnyro/librefy"><img src="/assets/github.svg" /></a>
+      </div>
+    </span>
   </footer>
 </template>
 

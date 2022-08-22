@@ -5,7 +5,7 @@
       <h2 class="mt-4 mb-[-0.2em]" v-text="getFullName" />
       <p v-text="`${$t('info.age')}: ${user.dob.age}`" />
       <p class="my-[-0.5em]" v-text="`${$t('info.nationality')}: ${user.nat}`" />
-      <p v-text="`${$t('info.email')}: ${user.email}`"/>
+      <p v-text="`${$t('info.email')}: ${user.email}`" />
       <button class="btn mt-6 mr-[-0.5em]" @click="fetchRandomUser" v-t="'actions.new_user'" />
     </div>
   </div>
@@ -31,7 +31,7 @@ export default {
   computed: {
     getFullName() {
       return this.user.name.first + " " + this.user.name.last;
-    }
-  }
+    },
+  },
 };
 </script>
