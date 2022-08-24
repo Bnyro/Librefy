@@ -439,6 +439,11 @@
     "@unocss/core" "0.45.8"
     unconfig "^0.3.5"
 
+"@unocss/core@0.45.12":
+  version "0.45.12"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.45.12.tgz#6491e0a28abd800d9e9c0c7a6a6dfa48498e247f"
+  integrity sha512-21ri/IF/r82lYJTSZ8kBwesSPysaMopMbPy6AtHgCQIHQPsdx6lOzg9Wq5rh+5IjXywXSmuRMuHiYSPjI0yxdw==
+
 "@unocss/core@0.45.8":
   version "0.45.8"
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.45.8.tgz#e9beebf6dfdd85ef7d0fef70fc68b4e38560979c"
@@ -538,13 +543,21 @@
   dependencies:
     "@unocss/core" "0.45.8"
 
-"@unocss/transformer-directives@0.45.8", "@unocss/transformer-directives@^0.45.8":
+"@unocss/transformer-directives@0.45.8":
   version "0.45.8"
   resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.45.8.tgz#d1a9f9d7d86bb820acc5453f77a727907244a7ed"
   integrity sha512-das5qyPOXjw7I6eXm6ETrnBQmfwzJo/RGMUkWmed67sYL4tWGLLYu8fOqoIR8vPGc6h5YmFjBGqOOCyX+NDmlg==
   dependencies:
     "@unocss/core" "0.45.8"
     css-tree "^2.1.0"
+
+"@unocss/transformer-directives@^0.45.12":
+  version "0.45.12"
+  resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.45.12.tgz#4c15944c0bf2bde42be3ae8ab3611c6197e1756b"
+  integrity sha512-VRUNAgWtBtrTTJPiUVoSbuFgJnr7ema00nRtOG9L1+YF27hBUQvIn/u5rkADY+R+j4+iUi2CUD/Recywk6WR8A==
+  dependencies:
+    "@unocss/core" "0.45.12"
+    css-tree "^2.2.1"
 
 "@unocss/transformer-variant-group@0.45.8":
   version "0.45.8"
@@ -871,7 +884,7 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-css-tree@^2.1.0:
+css-tree@^2.1.0, css-tree@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.2.1.tgz#36115d382d60afd271e377f9c5f67d02bd48c032"
   integrity sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==
