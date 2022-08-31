@@ -11,7 +11,7 @@
   "dependencies": {
     "@unocss/transformer-directives": "^0.45.12",
     "unocss": "^0.45.13",
-    "vue": "^3.2.13",
+    "vue": "^3.2.38",
     "vue-i18n": "9",
     "vue-router": "4"
   },
