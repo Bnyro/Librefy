@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
   },
   "dependencies": {
-    "@unocss/transformer-directives": "^0.45.18",
+    "@unocss/transformer-directives": "^0.45.21",
     "unocss": "^0.45.18",
     "vue": "^3.2.39",
     "vue-i18n": "9",
