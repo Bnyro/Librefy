@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@unocss/transformer-directives": "^0.47.1",
-    "unocss": "^0.46.5",
+    "unocss": "^0.47.3",
     "vue": "^3.2.45",
     "vue-i18n": "9",
     "vue-router": "4"
