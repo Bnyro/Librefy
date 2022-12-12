@@ -482,6 +482,11 @@
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.47.5.tgz#91263ff30075a2f2d3c2abf06d5b3d78d534f12d"
   integrity sha512-KADysCd6JEIowGB6INGgZRuYhaaxrxiQXl9Xh/V+H4bgjtaNDxYyvZ2qKx5+u/kB4U9iSI0ULxBAY3oyqZ/Yjw==
 
+"@unocss/core@0.47.6":
+  version "0.47.6"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.47.6.tgz#9501cb903b45e33ef86d77bd99aa6b7ad05f615b"
+  integrity sha512-Pjg/NdpuTwZk2Ns3bzI/3XVPuXU+AQ78Sw+9QJyMgA56dArd3TlpNDN6UTOD9XAK6mxdPUu7rNSKpNTLpBW2og==
+
 "@unocss/inspector@0.47.5":
   version "0.47.5"
   resolved "https://registry.yarnpkg.com/@unocss/inspector/-/inspector-0.47.5.tgz#358fc7bfc53b4b0aeece0403f832e9c500595ba8"
@@ -576,12 +581,20 @@
   dependencies:
     "@unocss/core" "0.47.5"
 
-"@unocss/transformer-directives@0.47.5", "@unocss/transformer-directives@^0.47.1":
+"@unocss/transformer-directives@0.47.5":
   version "0.47.5"
   resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.47.5.tgz#106f3d92e91f659b22362913acc4460dca641411"
   integrity sha512-kITp0L4w3iiULZsUXMS7u7oLBf+zyl71kuuBe1DsAWy/luDWrjnFpasug37Amh8++AFSxJYh2ThAfrF2m9XEng==
   dependencies:
     "@unocss/core" "0.47.5"
+    css-tree "^2.2.1"
+
+"@unocss/transformer-directives@^0.47.6":
+  version "0.47.6"
+  resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.47.6.tgz#ac714d9952c2e217dc94d7839718b94769ab28a5"
+  integrity sha512-vRY9bNhE+iNlRpsnky86MtKpRb8ipk3IHvtuRkK5DSjcjn7RGmh5ZpH9pzg39NvbWtRYq5/EN19riIYQHRetnA==
+  dependencies:
+    "@unocss/core" "0.47.6"
     css-tree "^2.2.1"
 
 "@unocss/transformer-variant-group@0.47.5":
