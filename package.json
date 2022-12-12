@@ -16,7 +16,7 @@
     "vue-router": "4"
   },
   "devDependencies": {
-    "@intlify/vite-plugin-vue-i18n": "6.0.3",
+    "@intlify/vite-plugin-vue-i18n": "7.0.0",
     "@babel/core": "^7.20.5",
     "@babel/eslint-parser": "^7.19.1",
     "@vitejs/plugin-vue": "^2.3.4",
