@@ -477,11 +477,6 @@
     "@unocss/core" "0.48.0"
     unconfig "^0.3.7"
 
-"@unocss/core@0.47.5":
-  version "0.47.5"
-  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.47.5.tgz#91263ff30075a2f2d3c2abf06d5b3d78d534f12d"
-  integrity sha512-KADysCd6JEIowGB6INGgZRuYhaaxrxiQXl9Xh/V+H4bgjtaNDxYyvZ2qKx5+u/kB4U9iSI0ULxBAY3oyqZ/Yjw==
-
 "@unocss/core@0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.48.0.tgz#5ce9c97c0062e590a8db46a0b610fd5b3176e555"
@@ -581,21 +576,13 @@
   dependencies:
     "@unocss/core" "0.48.0"
 
-"@unocss/transformer-directives@0.48.0":
+"@unocss/transformer-directives@0.48.0", "@unocss/transformer-directives@^0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.48.0.tgz#b8f2af305597e1ce7e0336b885b7b236bcba5130"
   integrity sha512-Iq55a/vAcTM7xoEtMkqlDP3BT+0ljaqTFctvlentJWDoAjJlbOoPe4gE5BKld5ulWEsV4wvpY2acn/y8SGvJUw==
   dependencies:
     "@unocss/core" "0.48.0"
     css-tree "^2.3.0"
-
-"@unocss/transformer-directives@^0.47.1":
-  version "0.47.5"
-  resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.47.5.tgz#106f3d92e91f659b22362913acc4460dca641411"
-  integrity sha512-kITp0L4w3iiULZsUXMS7u7oLBf+zyl71kuuBe1DsAWy/luDWrjnFpasug37Amh8++AFSxJYh2ThAfrF2m9XEng==
-  dependencies:
-    "@unocss/core" "0.47.5"
-    css-tree "^2.2.1"
 
 "@unocss/transformer-variant-group@0.48.0":
   version "0.48.0"
@@ -925,14 +912,6 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
-
-css-tree@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.2.1.tgz#36115d382d60afd271e377f9c5f67d02bd48c032"
-  integrity sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==
-  dependencies:
-    mdn-data "2.0.28"
-    source-map-js "^1.0.1"
 
 css-tree@^2.3.0:
   version "2.3.1"
@@ -1653,11 +1632,6 @@ magic-string@^0.27.0:
   integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
-
-mdn-data@2.0.28:
-  version "2.0.28"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.28.tgz#5ec48e7bef120654539069e1ae4ddc81ca490eba"
-  integrity sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==
 
 mdn-data@2.0.30:
   version "2.0.30"
