@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "7.0.0",
-    "@babel/core": "^7.20.7",
+    "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@vitejs/plugin-vue": "^2.3.4",
     "eslint": "8",
