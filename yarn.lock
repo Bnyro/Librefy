@@ -483,6 +483,11 @@
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.48.0.tgz#5ce9c97c0062e590a8db46a0b610fd5b3176e555"
   integrity sha512-WvAvChbJ65l97mHismyApeFVgNeGR4uSZl1BzVY+E/fRmyooE4QxiCm3g2akox6mQryzxvBvgSpP9aPzH676ZQ==
 
+"@unocss/core@0.48.2":
+  version "0.48.2"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.48.2.tgz#34863a9670d37b717d39aea4da845ce83b929320"
+  integrity sha512-QRgvN3IxIbkdM9LcSvgDq7ANIZ2XmCYvn6NOo2PHtvIi8fwebrjUpgw1HtAJkVnhAGWAhDLYDYrtsb+XpF/rkg==
+
 "@unocss/inspector@0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/inspector/-/inspector-0.48.0.tgz#818f4941f982c87211f4fc66874189c6dd26ba09"
@@ -577,13 +582,21 @@
   dependencies:
     "@unocss/core" "0.48.0"
 
-"@unocss/transformer-directives@0.48.0", "@unocss/transformer-directives@^0.48.0":
+"@unocss/transformer-directives@0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.48.0.tgz#b8f2af305597e1ce7e0336b885b7b236bcba5130"
   integrity sha512-Iq55a/vAcTM7xoEtMkqlDP3BT+0ljaqTFctvlentJWDoAjJlbOoPe4gE5BKld5ulWEsV4wvpY2acn/y8SGvJUw==
   dependencies:
     "@unocss/core" "0.48.0"
     css-tree "^2.3.0"
+
+"@unocss/transformer-directives@^0.48.2":
+  version "0.48.2"
+  resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.48.2.tgz#c3752c06870c13b3488013731436ddf78e6ebc39"
+  integrity sha512-Ehsb9cf6xOVK9+WHdJCOhZ/Sx/X+15/WyH3fCljcHqHgIRk2eUYBU4biSz8Y0JXFUUvbPUfPPwTbdhsih/YjaA==
+  dependencies:
+    "@unocss/core" "0.48.2"
+    css-tree "^2.3.1"
 
 "@unocss/transformer-variant-group@0.48.0":
   version "0.48.0"
@@ -914,7 +927,7 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-css-tree@^2.3.0:
+css-tree@^2.3.0, css-tree@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.3.1.tgz#10264ce1e5442e8572fc82fbe490644ff54b5c20"
   integrity sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==
