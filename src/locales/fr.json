@@ -1,0 +1,33 @@
+{
+  "titles": {
+    "translator": "Traducteur",
+    "quotes": "Citations",
+    "bored": "Ennuyé",
+    "random_user": "Utilisateur Aléatoire",
+    "dict": "Dictionnaire",
+    "countries": "Pays"
+  },
+  "actions": {
+    "next_quote": "Citation suivante",
+    "translate": "Traduire",
+    "enter_text": "Entrez le texte ici",
+    "next_activity": "Activité suivante",
+    "new_user": "Nouvel Utilisateur",
+    "search": "Rechercher",
+    "next_country": "Pays suivant"
+  },
+  "info": {
+    "age": "Âge",
+    "nationality": "Nationalité",
+    "email": "Email",
+    "definitions": "Définitions",
+    "synonyms": "Synonymes",
+    "antonyms": "Antonymes",
+    "example": "Exemple",
+    "participants": "Participants",
+    "type": "Type",
+    "capital": "Capitale",
+    "inhabitants": "Population",
+    "region": "Région"
+  }
+}
